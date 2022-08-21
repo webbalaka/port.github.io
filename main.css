@@ -83,7 +83,8 @@ body {
 .profile {
     width: 250px;
     height: 250px;
-    background-image: url(https://i.ibb.co/vP4003H/rererere.jpg);
+    /* background-image: url(https://i.ibb.co/vP4003H/rererere.jpg); */
+    background-image: url(img/rererere.jpg);
     background-color: #333333;
     border-radius: 12px;
     background-position: center;
@@ -394,15 +395,15 @@ body {
     border-radius: 12px;
 }
 
-.cer h2 {
+.certext h2{
     margin-top: 50px;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
     color: #333333;
 }
 
-.cer h3 {
+.certext h3 {
     margin-top: 10px;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -411,13 +412,21 @@ body {
     text-align: center;
 }
 
-.cer p {
+.certext h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 26px;
+    color: #333333;
+}
+
+.certext p {
     margin-top: 10px;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 20px;
     color: #828282;
 }
+
 
 .cer1 {
     background-color: white;
@@ -440,10 +449,30 @@ body {
     border-radius: 12px;
 }
 
+.cer4 {
+    background-color: white;
+    width: 1050px;
+    height: 1300px;
+    border-radius: 12px;
+}
+
+.minicer {
+    background-color: green;
+    width: 1050px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+}
+
 .cerpic1 {
     width: 800px;
     height: 500px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1kJUcNWEyxN3-Y0HQoxgHzS7Gp31PaDMa);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1kJUcNWEyxN3-Y0HQoxgHzS7Gp31PaDMa); */
     background-position: center;
     background-size: cover;
 }
@@ -451,7 +480,8 @@ body {
 .cerpic2 {
     width: 800px;
     height: 500px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1o_2QwQgR9Fa7LXW_iFozS4PxF5tp7eK_);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1o_2QwQgR9Fa7LXW_iFozS4PxF5tp7eK_); */
     background-position: center right;
     background-size: cover;
 }
@@ -459,7 +489,8 @@ body {
 .cerpic3 {
     width: 800px;
     height: 500px;
-    background-image: url(https://drive.google.com/uc?export=view&id=11TxHE-JuRNVsuWLTSSfJVJ73pJsO5D4S);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=11TxHE-JuRNVsuWLTSSfJVJ73pJsO5D4S); */
     background-position: center right;
     background-size: cover;
 }
@@ -473,7 +504,8 @@ body {
 .cerpic1_1 {
     width: 450px;
     height: 350px;
-    background-image: url(https://i.ibb.co/f8BTRw2/i01-292505017-492102282676059-2921548386262537910-n-1.jpg);
+    background-color: red;
+    /* background-image: url(https://i.ibb.co/f8BTRw2/i01-292505017-492102282676059-2921548386262537910-n-1.jpg); */
     background-position: center;
     background-size: cover;
 }
@@ -481,7 +513,8 @@ body {
 .cerpic1_2 {
     width: 450px;
     height: 350px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1TK2lALbi9Fk1uWMoKNvtnj8Fs1_HJJ9w);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1TK2lALbi9Fk1uWMoKNvtnj8Fs1_HJJ9w); */
     background-position: center;
     background-size: cover;
 }
@@ -489,7 +522,8 @@ body {
 .cerpic2_1 {
     width: 450px;
     height: 350px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1XnrR7Nv6lzpSwMxz_Ntf-Veqxpks1MOa);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1XnrR7Nv6lzpSwMxz_Ntf-Veqxpks1MOa); */
     background-position: center;
     background-size: cover;
 }
@@ -497,7 +531,8 @@ body {
 .cerpic2_2 {
     width: 450px;
     height: 350px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1xqViXbO8RsYLpodKTVIPoVXpYTVzPKOf);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1xqViXbO8RsYLpodKTVIPoVXpYTVzPKOf); */
     background-position: center;
     background-size: cover;
 }
@@ -505,7 +540,8 @@ body {
 .cerpic3_1 {
     width: 400px;
     height: 300px;
-    background-image: url(https://drive.google.com/uc?export=view&id=12mASKNHNWij3uGqr-aT40VB97IVkNG_y);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=12mASKNHNWij3uGqr-aT40VB97IVkNG_y); */
     background-position: center;
     background-size: cover;
 }
@@ -513,7 +549,8 @@ body {
 .cerpic3_2 {
     width: 450px;
     height: 350px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1p7GiOe4JrvjFzW_OXUl2rHAJsURjJ4BV);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1p7GiOe4JrvjFzW_OXUl2rHAJsURjJ4BV); */
     background-position: center;
     background-size: cover;
 }
@@ -521,15 +558,17 @@ body {
 .cerpic3_3 {
     width: 450px;
     height: 350px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1Xn5UA2dJQqj8BzY6w1GNLoIJbKAVGFfo);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1Xn5UA2dJQqj8BzY6w1GNLoIJbKAVGFfo); */
     background-position: center;
     background-size: cover;
 }
 
-.cerpic4 {
+.cerpic4_1 {
     width: 400px;
     height: 282.5px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1VBXUVTrU8zGU8H2DiVRAh5x3JfzCSNYN);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1VBXUVTrU8zGU8H2DiVRAh5x3JfzCSNYN); */
     background-position: center;
     background-size: cover;
     border: #363636 1px solid;
@@ -541,11 +580,22 @@ body {
 .cerpic5 {
     width: 400px;
     height: 282.5px;
-    background-image: url(https://drive.google.com/uc?export=view&id=1q4cflECbHPg1XvoLi70RiQTEIF6Y5SEu);
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1q4cflECbHPg1XvoLi70RiQTEIF6Y5SEu); */
     background-position: center;
     background-size: cover;
     border: #363636 1px solid;
     border-radius: 12px;
+}
+
+.cervideo1 {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.cervideo1 video {
+    width: 900px;
 }
 
 
@@ -554,7 +604,8 @@ body {
 .ex {
     width: 300px;
     height: 200px;
-    background-image: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+    background-color: red;
+    /* background-image: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif); */
     background-position: center;
     background-size: cover;
 }
