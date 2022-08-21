@@ -5,6 +5,47 @@
     font-family: 'Montserrat';
 }
 
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.bor {
+    border-radius: 12px;
+}
+
+.mr {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.mr1 {
+    margin-top: 25px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.pad {
+    padding: 25px 25px;
+}
+
+.pad1 {
+    padding: 25px 15px;
+}
+
+.pad2 {
+    padding: 25px 50px;
+}
+
 body {
     background: #F2F2F2;
 }
@@ -42,11 +83,20 @@ body {
 .profile {
     width: 250px;
     height: 250px;
-    background-image: url(https://i.ibb.co/FqkfkHc/277944522-400362448244037-7069518658084565980-n-removebg-preview.png);
+    background-image: url(https://i.ibb.co/vP4003H/rererere.jpg);
     background-color: #333333;
     border-radius: 12px;
     background-position: center;
     background-size: cover;
+}
+
+.name {
+    justify-content: space-between;
+    display: flex;
+}
+
+.userbox {
+    display: flex;
 }
 
 .about_me {
@@ -59,6 +109,8 @@ body {
 }
 
 .bigboxes {
+    display: flex;
+    margin: 0 auto;
     width: 1050px;
 }
 
@@ -208,6 +260,11 @@ body {
     background-size: cover;
 }
 
+.b1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .blog h1 {
     font-family: 'Montserrat';
     font-weight: 500;
@@ -240,6 +297,13 @@ body {
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
 }
 
 
@@ -366,7 +430,7 @@ body {
     background-color: white;
     width: 1050px;
     height: 1150px;
-    border-radius: 12px; 
+    border-radius: 12px;
 }
 
 .cer3 {
@@ -400,6 +464,12 @@ body {
     background-size: cover;
 }
 
+.underCer {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
 .cerpic1_1 {
     width: 450px;
     height: 350px;
@@ -425,7 +495,7 @@ body {
 }
 
 .cerpic2_2 {
-    width: 450px;   
+    width: 450px;
     height: 350px;
     background-image: url(https://drive.google.com/uc?export=view&id=1xqViXbO8RsYLpodKTVIPoVXpYTVzPKOf);
     background-position: center;
@@ -433,7 +503,7 @@ body {
 }
 
 .cerpic3_1 {
-    width: 400px;   
+    width: 400px;
     height: 300px;
     background-image: url(https://drive.google.com/uc?export=view&id=12mASKNHNWij3uGqr-aT40VB97IVkNG_y);
     background-position: center;
@@ -441,7 +511,7 @@ body {
 }
 
 .cerpic3_2 {
-    width: 450px;   
+    width: 450px;
     height: 350px;
     background-image: url(https://drive.google.com/uc?export=view&id=1p7GiOe4JrvjFzW_OXUl2rHAJsURjJ4BV);
     background-position: center;
@@ -449,7 +519,7 @@ body {
 }
 
 .cerpic3_3 {
-    width: 450px;   
+    width: 450px;
     height: 350px;
     background-image: url(https://drive.google.com/uc?export=view&id=1Xn5UA2dJQqj8BzY6w1GNLoIJbKAVGFfo);
     background-position: center;
@@ -457,7 +527,7 @@ body {
 }
 
 .cerpic4 {
-    width: 400px;   
+    width: 400px;
     height: 282.5px;
     background-image: url(https://drive.google.com/uc?export=view&id=1VBXUVTrU8zGU8H2DiVRAh5x3JfzCSNYN);
     background-position: center;
@@ -469,7 +539,7 @@ body {
 
 
 .cerpic5 {
-    width: 400px;   
+    width: 400px;
     height: 282.5px;
     background-image: url(https://drive.google.com/uc?export=view&id=1q4cflECbHPg1XvoLi70RiQTEIF6Y5SEu);
     background-position: center;
@@ -488,3 +558,4 @@ body {
     background-position: center;
     background-size: cover;
 }
+
