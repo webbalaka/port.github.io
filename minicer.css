@@ -1,0 +1,66 @@
+.minicer {
+    width: 1050px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.minicer h3 {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+.minicer1 {
+    width: 400px;
+    height: 282.5px;
+    background-color: red;
+    background-image: url(https://drive.google.com/uc?export=view&id=1vTAwbqk2cVOCeaY_Dhmj1GXjU3VqRW0l);
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+.minicer2 {
+    width: 450px;
+    height: 282.5px;
+    background-color: red;
+    background-image: url(https://drive.google.com/uc?export=view&id=1q4cflECbHPg1XvoLi70RiQTEIF6Y5SEu);
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+.minicer3 {
+    width: 455px;
+    height: 350px;
+    background-color: red;
+    background-image: url(https://drive.google.com/uc?export=view&id=1H3iZ0Vfd7MyzqutiJUQJzH2I0Gk483W0);
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+.minicer4 {
+    width: 455px;
+    height: 350px;
+    background-color: red;
+    /* background-image: url(https://drive.google.com/uc?export=view&id=1H3iZ0Vfd7MyzqutiJUQJzH2I0Gk483W0); */
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+
+
+
