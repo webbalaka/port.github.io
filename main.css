@@ -452,7 +452,7 @@ body {
 .cer4 {
     background-color: white;
     width: 1050px;
-    height: 1300px;
+    height: 900px;
     border-radius: 12px;
 }
 
@@ -564,11 +564,37 @@ body {
     background-size: cover;
 }
 
+.cergroup4 {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .cerpic4_1 {
-    width: 400px;
-    height: 282.5px;
+    width: 300px;
+    height: 200px;
     background-color: red;
-    /* background-image: url(https://drive.google.com/uc?export=view&id=1VBXUVTrU8zGU8H2DiVRAh5x3JfzCSNYN); */
+    /* background-image: url(/port.github.io/img/298764800_605497681200400_1854704200659514256_n.jpg); */
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+.cerpic4_2 {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    /* background-image: url(/port.github.io/img/299723779_1234224224042238_438129145268893294_n.jpg); */
+    background-position: center;
+    background-size: cover;
+    border: #363636 1px solid;
+    border-radius: 12px;
+}
+.cerpic4_3 {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    /* background-image: url(img/S__51626071.jpg); */
     background-position: center;
     background-size: cover;
     border: #363636 1px solid;
@@ -589,13 +615,13 @@ body {
 }
 
 .cervideo1 {
-    margin-top: 50px;
+    margin-top: 25px;
     display: grid;
     place-items: center;
 }
 
 .cervideo1 video {
-    width: 900px;
+    width: 750px;
 }
 
 
